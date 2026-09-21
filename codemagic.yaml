@@ -4,7 +4,7 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     environment:
-      xcode: "15.3"
+      xcode: "16.4"
       cocoapods: default
       node: latest
       flutter: none
