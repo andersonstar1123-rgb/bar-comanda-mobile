@@ -1,0 +1,145 @@
+﻿node.exe : Bytecode makes the app startup faster, disabling bytecode is highly discouraged and should only be used for 
+debugging purposes.
+No linha:1 caractere:93
++ ... da\mobile"; & node ".\node_modules\@expo\cli\build\bin\cli" export -- ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Bytecode makes ...gging purposes.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Starting Metro Bundler
+
+SyntaxError: SyntaxError: C:\Users\Anderson\Documents\Default Project\bar-comanda\mobile\app\login.tsx: Unexpected 
+keyword 'const'. (93:0)
+
+[0m [90m 91 |[39m   card[33m:[39m { backgroundColor[33m:[39m [32m'#131318'[39m[33m,[39m 
+borderRadius[33m:[39m [35m16[39m[33m,[39m padding[33m:[39m [35m32[39m[33m,[39m borderWidth[33m:[39m 
+[35m1[39m[33m,[39m borderColor[33m:[39m [32m'#2a2a34'[39m }[33m,[39m
+ [90m 92 |[39m
+[31m[1m>[22m[39m[90m 93 |[39m [36mconst[39m styles [33m=[39m [33mStyleSheet[39m[33m.[39mcreate({
+ [90m    |[39m [31m[1m^[22m[39m
+ [90m 94 |[39m   container[33m:[39m { flex[33m:[39m [35m1[39m[33m,[39m justifyContent[33m:[39m 
+[32m'center'[39m[33m,[39m padding[33m:[39m [35m24[39m[33m,[39m backgroundColor[33m:[39m 
+[32m'#0a0a0f'[39m }[33m,[39m
+ [90m 95 |[39m   card[33m:[39m { backgroundColor[33m:[39m [32m'#16161d'[39m[33m,[39m borderRadius[33m:[39m 
+[35m16[39m[33m,[39m padding[33m:[39m [35m32[39m[33m,[39m borderWidth[33m:[39m [35m1[39m[33m,[39m 
+borderColor[33m:[39m [32m'#26262f'[39m }[33m,[39m
+ [90m 96 |[39m   logo[33m:[39m { width[33m:[39m [35m100[39m[33m,[39m height[33m:[39m 
+[35m100[39m[33m,[39m marginBottom[33m:[39m [35m16[39m[33m,[39m alignSelf[33m:[39m [32m'center'[39m 
+}[33m,[39m[0m
+SyntaxError: C:\Users\Anderson\Documents\Default Project\bar-comanda\mobile\app\login.tsx: Unexpected keyword 'const'. 
+(93:0)
+
+[0m [90m 91 |[39m   card[33m:[39m { backgroundColor[33m:[39m [32m'#131318'[39m[33m,[39m 
+borderRadius[33m:[39m [35m16[39m[33m,[39m padding[33m:[39m [35m32[39m[33m,[39m borderWidth[33m:[39m 
+[35m1[39m[33m,[39m borderColor[33m:[39m [32m'#2a2a34'[39m }[33m,[39m
+ [90m 92 |[39m
+[31m[1m>[22m[39m[90m 93 |[39m [36mconst[39m styles [33m=[39m [33mStyleSheet[39m[33m.[39mcreate({
+ [90m    |[39m [31m[1m^[22m[39m
+ [90m 94 |[39m   container[33m:[39m { flex[33m:[39m [35m1[39m[33m,[39m justifyContent[33m:[39m 
+[32m'center'[39m[33m,[39m padding[33m:[39m [35m24[39m[33m,[39m backgroundColor[33m:[39m 
+[32m'#0a0a0f'[39m }[33m,[39m
+ [90m 95 |[39m   card[33m:[39m { backgroundColor[33m:[39m [32m'#16161d'[39m[33m,[39m borderRadius[33m:[39m 
+[35m16[39m[33m,[39m padding[33m:[39m [35m32[39m[33m,[39m borderWidth[33m:[39m [35m1[39m[33m,[39m 
+borderColor[33m:[39m [32m'#26262f'[39m }[33m,[39m
+ [90m 96 |[39m   logo[33m:[39m { width[33m:[39m [35m100[39m[33m,[39m height[33m:[39m 
+[35m100[39m[33m,[39m marginBottom[33m:[39m [35m16[39m[33m,[39m alignSelf[33m:[39m [32m'center'[39m 
+}[33m,[39m[0m
+    at constructor (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:369:19)
+    at TypeScriptParserMixin.raise (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:6622:19)
+    at TypeScriptParserMixin.checkReservedWord (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:12258:12)
+    at TypeScriptParserMixin.checkReservedWord (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:9333:13)
+    at TypeScriptParserMixin.parseObjectProperty (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11988:12)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:12012:100)
+    at TypeScriptParserMixin.parseObjPropValue (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:9767:18)
+    at TypeScriptParserMixin.parsePropertyDefinition (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11949:17)
+    at TypeScriptParserMixin.parseObjectLike (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11866:21)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11370:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10857:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:9809:20)
+    at C:\Users\Anderson\Documents\Default Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10826:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:12460:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10826:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:12527:17)
+    at TypeScriptParserMixin.parseExprListItem (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:12209:18)
+    at TypeScriptParserMixin.parseCallExpressionArguments (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11283:22)
+    at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11217:29)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11146:19)
+    at TypeScriptParserMixin.parseSubscript (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:9295:18)
+    at TypeScriptParserMixin.parseSubscripts (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11120:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11111:17)
+    at TypeScriptParserMixin.parseUpdate (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10857:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:9809:20)
+    at C:\Users\Anderson\Documents\Default Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10826:39
+    at TypeScriptParserMixin.allowInAnd (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:12455:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:10826:17)
+    at TypeScriptParserMixin.parseVar (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:13418:91)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:13264:10)
+    at TypeScriptParserMixin.parseVarStatement (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:9431:31)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:12885:23)
+    at TypeScriptParserMixin.parseStatementContent (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:9531:18)
+    at TypeScriptParserMixin.parseStatementLike (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:12801:17)
+    at TypeScriptParserMixin.parseModuleItem (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:12778:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\Anderson\Documents\Default 
+Project\bar-comanda\mobile\node_modules\@babel\parser\lib\index.js:13350:36)
+

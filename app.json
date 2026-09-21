@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "comanda",
+    "slug": "bar-comanda",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a73e8"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.barcomanda.app",
+      "icon": "./assets/icon.png",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true,
+          "NSAllowsLocalNetworking": true
+        },
+        "NSCameraUsageDescription": "A câmera é usada para fotografar produtos do cardápio.",
+        "NSPhotoLibraryUsageDescription": "A galeria é usada para escolher fotos dos produtos do cardápio.",
+        "NSMicrophoneUsageDescription": "O microfone pode ser usado para gravar vídeos dos produtos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a73e8"
+      },
+      "package": "com.barcomanda.app",
+      "versionCode": 1,
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE", "CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-image-picker",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "scheme": "barcomanda",
+    "extra": {
+      "router": { "origin": false },
+      "apiUrl": "http://192.168.90.2:3001/api",
+      "eas": { "projectId": "bar-comanda" }
+    }
+  }
+}
