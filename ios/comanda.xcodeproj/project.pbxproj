@@ -1,4 +1,4 @@
-// !$*UTF8*$!
+﻿// !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -308,7 +308,7 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				SWIFT_OBJC_BRIDGING_HEADER = comanda\comanda-Bridging-Header.h;
+				SWIFT_OBJC_BRIDGING_HEADER = comanda/comanda-Bridging-Header.h;
 				CODE_SIGN_ENTITLEMENTS = comanda/comanda.entitlements;
 			};
 			name = Debug;
@@ -334,7 +334,7 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				SWIFT_OBJC_BRIDGING_HEADER = comanda\comanda-Bridging-Header.h;
+				SWIFT_OBJC_BRIDGING_HEADER = comanda/comanda-Bridging-Header.h;
 				CODE_SIGN_ENTITLEMENTS = comanda/comanda.entitlements;
 			};
 			name = Release;
