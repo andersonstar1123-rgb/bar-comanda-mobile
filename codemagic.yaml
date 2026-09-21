@@ -11,6 +11,12 @@ workflows:
       - name: Instalar dependencias npm
         script: npm ci
 
+      - name: Remover BOM de arquivos pbxproj (seguranca)
+        script: |
+          set -e
+          perl -i -pe 's/^\xEF\xBB\xBF// if $. == 1' $(find . -name "*.pbxproj")
+          echo ">>> BOM verificado/removido em todos os pbxproj"
+
       - name: Instalar pods (CocoaPods)
         script: cd ios && pod install
 
