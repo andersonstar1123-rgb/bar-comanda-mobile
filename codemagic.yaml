@@ -7,7 +7,6 @@ workflows:
       xcode: "16.4"
       cocoapods: default
       node: latest
-      flutter: none
     scripts:
       - name: Instalar dependencias npm
         script: npm ci
